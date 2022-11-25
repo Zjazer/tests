@@ -1,0 +1,58 @@
+1)
+//выведите в консоли текущий год
+const d = new Date();
+document.querySelector("demo").innerHTML = d.getFullYear();
+2)
+//выведите в консоли месяцы актуального времени
+const d = new Date();
+document.querySelector("demo").innerHTML = d.getMonth();
+3)
+//выведите в консоли часы актуального времени
+const d = new Date();
+document.querySelector("demo").innerHTML = d.getMonth();
+4)
+//выведите в консоли минуты актуального времени
+const d = new Date();
+document.querySelector("demo").innerHTML = d.getMinutes();
+5)
+//выведите в консоли секунды актуального времени
+const d = new Date();
+document.querySelector("demo").innerHTML = d.getSeconds();
+
+6)
+//выведите в консоли миллисекунды актуального времени
+const d = new Date();
+document.querySelector("demo").innerHTML = d.getMilliSeconds();
+7)
+//установите 2030 год и выведите в консоли 
+const d = new Date();
+d.setFullYear(2030)
+console.log(d);
+8)
+//установите 12 часов и выведите в консоли 
+const d = new Date();
+d.setHours(12)
+console.log(d);
+9)
+//установите 30 минут и выведите в консоли 
+const d = new Date();
+d.setMinutes(30)
+console.log(d);
+
+10)
+//установите 2 месяц и выведите в консоли 
+const d = new Date();
+d.setMonth(2)
+console.log(d);
+
+11)
+//установите 40 секунд и выведите в консоли 
+const d = new Date();
+d.setSeconds(40)
+console.log(d);
+
+12)
+//установите 400 миллисекунд и выведите в консоли 
+const d = new Date();
+d.setMilliSeconds(400)
+console.log(d);
