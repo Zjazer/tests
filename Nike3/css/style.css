@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.maincont {
+    width: 400px;
+    background: rgb(94, 86, 86);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+
+}
+
+.card {
+    width: 250px;
+    height: 500px;
+    background: rgb(253, 248, 248);
+    border-radius: 20px;
+}
+
+.cont {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn1 {
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    border: solid 2px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    transform: scale(1.2);
+}
+
+.round {
+    height: 10px;
+    width: 10px;
+    background: #000;
+    border-radius: 50px;
+    position: absolute;
+    margin-right: 24px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.text1 {
+    color: white;
+    font-size: 0.5em;
+}
+
+.nike {
+    font-size: 2em;
+}
+
+.textcont {
+    width: 74%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.textcont2 {
+    margin: 0 auto;
+    width: 30%;
+    color: gray;
+}
+
+.firstcont {
+    width: 15%;
+   
+}
+
+.secondcont {
+    width: 70%;
+    background: url(../img/photo1669922392-removebg-preview\ \(1\).png) center/cover;
+}
+
+main {
+    display: flex;
+}
+
+
+.btn2 {
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    border: solid 2px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background: #000;
+    color: white;
+    margin-top: 7px;
+}
+
+
+.btn3 {
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    border: solid 2px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 7px;
+}
+
+.btn2:hover {
+    transform: scale(1.2);
+}
+
+
+.btn3:hover {
+    transform: scale(1.2);
+}
+
+
+.btn4:hover {
+    transform: scale(1.2);
+}
+
+.orange {
+    height: 11px;
+    width: 11px;
+    border-radius: 3px;
+    background: rgb(228, 62, 2);
+}
+
+
+.violete {
+    height: 11px;
+    width: 11px;
+    border-radius: 3px;
+    background: rgb(121, 1, 132);
+}
+
+
+.btn4 {
+    height: 25px;
+    width: 25px;
+    border-radius: 5px;
+    border: solid 2px gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-top: 160px;
+}
+
+.sneakcont {
+    width: 1px;
+    position: relative;
+    margin-top: 30px;
+    right: 20px;
+}
+
+.sneak {
+    height: 170px;
+    width: 170px;
+    background: url(../img/img1.png) center/cover;
+
+}
+
+.ftr{
+    margin-top: 120px;
+    margin-right: 7px;
+    position: absolute;
+}
+
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+footer{
+    margin-top: 10px;
+    height: 90px;
+    width: 150px;
+    background: url(../img/msg5172222872-110812.jpg)center/cover;
+    margin-left: 20px;
+}
+
+.div{
+
+    width: 30px;
+    background: rgb(69, 69, 69);
+    position: absolute;
+    margin-left: 70px;
+    border-radius: 20px;
+}
+
+.cont56{
+    width: 1px;
+    position: relative;
+    bottom: 13px;
+}
+
+.div1{
+    color: white;
+    padding-left: 7px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.div1:hover{
+    transform: scale(1.2);
+}
