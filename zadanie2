@@ -1,0 +1,43 @@
+5
+function pow(a){
+return [a]
+}
+console.log(pow(2));
+
+4
+function bow(a,b){
+    if(a,b ==10)
+    return true
+    if(a+b ==10)
+    return true
+    else return false
+}
+
+console.log(bow(1,9));
+
+function bow(a,b){
+    if(a,b ==10)
+    return true
+    if(a+b ==10)
+    return true
+    else return false
+}
+
+console.log(bow(1,9));
+
+2
+function bow(a,b){
+    if(a,b ==10)
+    return true
+    if(a+b ==10)
+    return true
+    else return false
+}
+
+console.log(bow(1,9));
+
+1
+function xow(a) {
+    return a
+   }
+   console.log(xow(150));
