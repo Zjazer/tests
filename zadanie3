@@ -1,0 +1,21 @@
+1
+function boow(n){
+if (n=n) return n
+};
+console.log(boow(53));
+
+3
+console.log(eval(2+2));
+console.log(eval(3/2))
+
+4
+console.log(eval(2+2));
+console.log(eval(3/2))
+
+5
+function boow(n){
+    if (n=n) return n*-1
+    else return 0
+    };
+    console.log(boow(0));
+    
