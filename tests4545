@@ -1,0 +1,145 @@
+1)
+//перечисли все типы данных
+String
+Number
+object
+function
+boolean
+2)
+//перечисли типы объектов
+object
+Date
+array
+String
+Number
+boolean
+3)
+//какие типы данных не могут содержать значения
+null
+undefined
+4)
+//выведите в консоли тип данных ниже
+let a = 'John'; string
+let b = 3.14; number
+let c = NaN; number
+let d = false; boolean
+let e = [1, 2, 3, 4];  objecct
+let f = {name: 'ALex', age: 36};   object
+let q = new Date();  object
+let r = function () {};  function
+let k;  undefind
+let n = null;  
+
+5)
+//преобразуйте строки ниже в числа c помощью Number
+let a = '23.5';
+let b = '20';
+let d = '0000000.1';
+let c = ' ';
+let n = 'hello';
+
+let a = Number('23.5')
+let b = Number('20')
+let d = Number('0000000.1')
+let c = Number(' ')
+let n = Number('hello')
+
+console.log(a);
+console.log(b);
+console.log(d);
+console.log(c);
+console.log(n);
+
+6)
+//преобразуйте строки ниже в числа c помощью унарного плюса
+let a = '23.5';
+let b = '20';
+let d = '0000000.1';
+let c = ' ';
+let n = 'hello';
+
+7)
+//вырежте из строк ниже целую часть числа и выведите в консоли
+let a = '23.5px';
+let b = '20rem';
+let d = '0000000.1deg';
+
+let a = parseInt ('23.5px')
+let b = parseInt ('20rem')
+let d = parseInt( '0000000.1deg')
+
+console.log(a);
+console.log(b);
+console.log(d);
+
+
+8)
+//вырежте из строк ниже числа вместе с плавающей точкой и выведите в консоли
+let a = '23.5px';
+let b = '20rem';
+let d = '0000000.1deg';
+
+let a = parseFloat('23.5px')
+let b = parseFloat('20rem')
+let d = parseFloat('0000000.1deg')
+
+console.log(a);
+console.log(b);
+console.log(d);
+
+
+9)
+//преобразуйте переменные ниже в строки с помощью String
+let a = 234;
+let b = true;
+
+let a = String(234)
+let b = String(true)
+
+console.log(a);
+console.log(b);
+
+10)
+//преобразуйте переменные ниже в строки с помощью toString
+let a = 234;
+let b = true;
+
+let a = (234).toString()
+let b = (true).toString()
+
+console.log(a);
+console.log(b);
+
+11)
+//преобразуйте дату в число и выведите в консоли
+let dat = new Date();
+
+let dat = Number(new Date())
+console.log(dat);
+
+12)
+//что выведет в консоли 
+let a = 5 + null;
+
+5
+
+13)
+//что выведет в консоли 
+let b = '5' + null;
+
+5null
+14)
+//что выведет в консоли 
+let c = '5' + 2;
+
+52
+
+15)
+//что выведет в консоли 
+let d = '5' - 2;
+3
+16) 
+//что выведет в консоли 
+let r = '5' * 2;
+
+10
