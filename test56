@@ -1,0 +1,164 @@
+8,11,12,13,17   
+
+1)
+//найдите модификатор в регулярном выражении
+/tests/history
+
+2)
+//найдите паттерн в регулярном выражении
+/tests/history
+
+3)
+//выведите в консоли true если 'webmaster' находится в регулярном выражении
+let regExp = '/webpage/webmaster';
+
+
+4)
+//замените 'webpage' на 'site' в регулярном выражении
+let regExp = '/webpage/webmaster';
+
+let regExp = '/webpage/webmaster';
+let result = regExp.replace("webpage","site")
+console.log(result);
+
+5)
+//замените первый 'Webpage' в регулярном выражении на 'page' в не зависимости от того каким будет регистр
+let regExp = '/Webpage/webmaster/webpage/translate';
+
+
+let regExp = '/Webpage/webmaster/webpage/translate';
+let result = regExp.replace(/Webpage/i,"page")
+console.log(result);
+
+
+
+6)
+//замените все 'Webpage' в регулярном выражении на 'page' в не зависимости от того каким будет регистр
+let regExp = '/Webpage/webmaster/webpage/translate';
+
+let regExp = '/Webpage/webmaster/webpage/translate';
+let result = regExp.replace(/webpage/gi,"page")
+console.log(result);
+
+
+7)
+//замените первый 'page' в регулярном выражении na '*' c помощью модификатора m
+let regExp = '/Webpage/webmaster/webpage/translate';
+
+let regExp = '/Webpage/webmaster/webpage/translate';
+let result = regExp.replace(/page/mi,"*")
+console.log(result);
+
+
+8)
+//найдите и замените все w,p,e буквы в регулярном выражении 'S'
+let regExp = '/Webpage/webmaster/webpage/translate';
+
+
+let regExp = '/Webpage/webmaster/webpage/translate';
+let result = regExp.replace(/w,p,e/gi,"s")
+console.log(result);
+
+9)
+//найдите и замените все цифры в регулярном выражении на 'S'
+let regExp = '/Webpage1/web2master1/web0page9/translate65';
+
+let regExp = '/Webpage1/web2master1/web0page9/translate65';
+let result = regExp.replace(/[0-9]/g,"s")
+console.log(result);
+
+10)
+//найдите и замените все 5 или а в регулярном выражении на 'S'
+let regExp = '/Webpage5/web5master5/web5page5/translate55';
+
+let regExp = '/Webpage5/web5master5/web5page5/translate55';
+let result = regExp.replace(/[5]/g,"s")
+console.log(result);
+
+11)
+//найдите и замените все цифры в регулярном выражении на 'S' с помощью \d
+let regExp = '/Webpage5/web5master5/web5page5/translate55';
+
+let regExp = '/Webpage5/web5master5/web5page5/translate55';
+let result = regExp.replace(/[0-9]/gd,"s")
+console.log(result);
+
+12)
+//найдите и замените все пробелы в регулярном выражении на 'S' с помощью \s
+let regExp = '/Web page/webmaster / webpage';
+
+let regExp = '/Web page/webmaster / webpage';
+let result = regExp.replace(/``/gs,"s")
+console.log(result);
+
+13)
+//замените все паттерны которые начинаются со строки 'we' в регулярном выражении на 'page' 
+let regExp = '/Webpage/webmaster/webpage/translate';
+
+let regExp = '/Webpage/webmaster/webpage/translate';
+let result = regExp.replace(/we/bgi,"page")
+console.log(result);
+
+14)
+//используйте квантификатор n+ чтобы заменить строку 'eb' на 'S'
+let regExp = '/Webpage/webmaster/webpage/translate';
+
+15)
+//используйте квантификатор n* чтобы заменить 'eb' комбинацию букв или одну букву на 'S'
+let regExp = '/Webpage/webmaster/webpage/translate';
+
+16)
+//используйте квантификатор n? чтобы заменить 'eb' комбинацию букв или одну букву на 'S'
+let regExp = '/Webpage/webmaster/webpage/translate';
+
+17)
+//с помощью выражения test определите есть ли в регулярном выражении буква 'e'
+let regExp = '/Webpage/webmaster/webpage/translate';
+
+const pattern = /e/
+pattern.test = ("/Webpage/webmaster/webpage/translate");
+console.log(pattern.test);
+
+18)
+//с помощью выражения exec определите есть ли в регулярном выражении буква 'e'
+let regExp = '/Webpage/webmaster/webpage/translate';
+
+19)
+//с помощью выражения test определите есть ли в регулярном выражении буква 'e'
+let regExp = '/Webpage/webmaster/webpage/translate';
+
+20)
+//с помощью регулярного выражения выведите в консоли все слова которые начинаются на букву и заканчиваются цифрой
+let regExp = 'color: p23; black45 h master1 d3 ';
+
+21)
+//с помощью регулярного выражения выведите в консоли все китайские символы 
+let regExp = 'color:爲 p23; black45 為 h master1 d3 为';
+
+22)
+//с помощью регулярного выражения выведите в консоли все валютные знаки символы 
+let regExp = 'color:爲 p £ 23; bl ¥ ack45 為 h master1 d3 为';
+
+23)
+//с помощью регулярного выражения выведите в консоли true/false если в строке есть отдельное слово 'Hello'
+let regExp = 'color:爲 p £ 23; bl ¥ ackHello45 為 h masHelloter1 d3 为';
+
+24)
+//с помощью регулярного выражения выведите в консоли только двузначные числа
+let regExp = '1 23,45, 56, 7678,67 345';
+
+25)
+//с помощью регулярного выражения выведите в консоли только знаки
+let regExp = 'KJHljkjkjlkJLKJ &^*&^%^$%^*)_(_)}{p}';
+
+26)
+//с помощью регулярного выражения выведите в консоли все кроме букв a, b, c
+let regExp = 'KJHljkjabckjlkJcbaaLKJ &b^*&^%^c$%^*)_(a_)}cb{p}';
+
+27)
+//с помощью регулярного выражения выведите в консоли все числа длиной от 2 до 6 символов
+let regExp = '34 456 567 4567 3 45678 3333333 456789564 34 3 1213434535';
+
+28)
+//с помощью регулярного выражения выведите в консоли все числа длиной больше 3-х символов 
+let regExp = '34 456 567 4567 3 45678 3333333 456789564 34 3 1213434535';

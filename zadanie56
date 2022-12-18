@@ -1,0 +1,16 @@
+4
+console.log(Math.max(1,2,3,4));
+console.log(Math.min(1,2,3,4));
+
+6
+function bow(a,b){
+    if (a>b)
+    return true
+    else return false
+}
+console.log(bow(5,6));
+
+3
+console.log(eval(1+5));
+console.log(eval(1-5));
+console.log(eval(4*5));
