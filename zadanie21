@@ -1,0 +1,13 @@
+1
+function bow(a,b,c){
+    return(a*a*a + b*b*b + c*c*c)
+}
+console.log(bow(2,3,4));
+
+4
+function bow(a){
+    if (a%2==0)
+    return a
+   }
+   
+   console.log(bow())
