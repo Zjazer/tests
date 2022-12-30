@@ -1,0 +1,40 @@
+1
+function bow(a) {
+    let sum = 0
+    for (let x of a) {
+        (sum += x ** 3)
+    }
+    return sum
+}
+console.log(bow([2, 3, 4]));
+
+2
+function bow(a) {
+
+    return a.sort((a,b)=> a.length - b.length )
+}
+console.log(bow(['aaaa','bbb','cccccccc']));
+
+3
+function bow(a) {
+    let newArr = String(a).split('')
+        newArr = newArr.map(item => +item)
+        return Math.max(...newArr)
+        
+    }
+    console.log(bow(879));
+
+4
+function bow(a) {
+    return a.filter(item=> item%2 === 0)
+    }
+    console.log(bow([1,2,4,5,6,8,3]));
+
+5
+let r = ['a','e','i','u','o']
+
+function bow(a) {
+let arr = a.split('')
+return arr.filter(item => r.includes(item))
+}
+console.log(bow('yabloko'));
