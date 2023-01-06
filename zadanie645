@@ -1,0 +1,27 @@
+1
+function bow(nr) {
+    return nr.sort((a, b) => a.length - b.length)
+}
+console.log(bow(['aaaaaaa', 'errrrr', 'eeeeeeee']));
+
+2
+let arr = [3,2,5,6,-2];
+function arraySum(a){
+let sum = 0;
+for(let i = 0; i < a.length; i++){
+    sum += a[i];
+    }
+console.log(sum);
+}
+arraySum(arr);
+
+3
+let arr = [3,2,5,6,-2];
+const bg = (num)=>{
+let sum = 0;
+for(let i = 0; i < num.length; i+=1){
+    sum += num[i];
+    }
+return sum / num.length
+}
+console.log(bg(arr));
