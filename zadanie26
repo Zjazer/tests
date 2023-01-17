@@ -1,0 +1,39 @@
+5
+function bow(a) {
+    let na = String(a).split('')
+    na = na.map(item => +item)
+    return Math.max(...na);
+}
+
+function bow1(a) {
+    let na = String(a).split('')
+    na = na.map(item => +item)
+    return Math.min(...na);
+}
+
+console.log(bow(476));
+console.log(bow1(476));
+
+4
+function bow(a, b) {
+    if (b > 60)
+        return false
+    else
+        return (a * 60 + b)
+
+}
+
+console.log(bow(02, 70));
+console.log(bow(03, 50));
+
+ 
+
+ 3
+ 
+let n = 123456;
+let a = (""+n).split("").map(Number);
+ console.log(a);
+
+ let g = a
+console.log(g.join(''));
+
