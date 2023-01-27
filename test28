@@ -1,0 +1,130 @@
+1
+//что выведет в консоли функция call
+const person = {
+    name: 'Alex',
+    age: 24,
+    call: function() {
+        console.log(`${this.name} = ${this.age}`);
+    }
+}
+
+Alex = 24
+
+
+
+2
+//получите доступ к методу call и запустите его
+const person = {
+    name: 'Alex',
+    age: 24,
+    call: function() {
+        console.log(`${this.name} = ${this.age}`);
+    }
+}
+
+console.log(person.call())
+
+3
+//выведите в консоли все ключи из обьекта с помощью for
+const person = {
+    name: 'Alex',
+    age: 24,
+    city: 'Baku',
+    call: function() {
+        console.log(`${this.name} = ${this.age}`);
+    }
+}
+
+
+4
+//выведите в консоли все значения из обьекта с помощью for
+const person = {
+    name: 'Alex',
+    age: 24,
+    city: 'Baku',
+    call: function() {
+        console.log(`${this.name} = ${this.age}`);
+    }
+}
+
+5
+//преобразуйте обьект ниже в массив
+const person = {
+    name: 'Alex',
+    age: 24,
+    city: 'Baku',
+    call: function() {
+        console.log(`${this.name} = ${this.age}`);
+    }
+}
+
+
+const r = Object.keys(person)
+console.log(r);
+
+6
+//преобразуйте обьект ниже в строку
+const person = {
+    name: 'Alex',
+    age: 24,
+    city: 'Baku',
+    call: function() {
+        console.log(`${this.name} = ${this.age}`);
+    }
+}
+
+
+JSON.stringify(person)
+console.log(JSON.stringify(person));
+
+7
+//преобразуйте обьект ниже в конструктор функции
+let obj = {
+    name: 'Alex',
+    age: 24,
+    isMarried: false,
+    hasCar: false,
+    hasJob: true,
+    job: 'Programmer',
+    childs: ['Hanz', 'Marry'],
+    awards: {
+        itMaster: 'Legend rang',
+        driver: 'Fast man'
+    }
+}
+
+
+function obj(name,age,ismarried,hascar,hasob,job,childs,awards) = {
+    this.name = name
+    this.age  = age
+    this.isMarried = isMarried
+    this.hasCar: hasCar
+    this.hasJob: hasJob
+    this.job: job
+    this.childs = childs
+    this.awards = awards
+}
+
+
+8
+//перечисли встроенные конструкторы javascript
+new String()
+new Number()
+new Boolean()
+new Object()
+new Array()
+new RegEx()
+new Function()
+new Date()
+9
+//создайте новый обьект используя конструктор ниже
+function Person(name, age, job) {
+    this.name = name;
+    this.age = age;
+    this.job = job;
+}
+
+
+const rob = new Person('rob','33','taxi')
+
+console.log(rob);

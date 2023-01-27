@@ -1,0 +1,38 @@
+4
+const a = [1,2,3,4]
+const b = [3,6,7,5,9]
+function bow(){
+    return (b+a).split()
+}
+console.log(bow());
+
+5
+let a = 234
+let r = String(a)
+console.log(r.length);
+
+1
+
+function bow(a,b){
+    
+    a = Number(a)
+    b = Number(b)
+    return(a+b)
+}
+console.log(bow('3','5'));
+
+(2 вариант)
+let a = '5'
+let b = '6'
+z = Number(a)
+x = Number(b)
+console.log(z+x);
+
+3
+function bow(a,b){
+    a = String(a)
+    b = Number(b)
+    return (a+','+b).split()
+    }
+    
+    console.log(bow('a',4));

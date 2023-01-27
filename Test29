@@ -1,0 +1,109 @@
+Тест.js
+1) 
+//выведите в консоли каждый элемент из строки ниже с помощью for
+let str = 'My name is Samuil';
+
+2)
+//выведите в консоли каждый элемент из массива ниже с помощью for
+let arr = [1, 2, 3, 4, 5];
+
+3)
+//создайте набор с помощью new Set()
+
+const a = new Set(['a'])
+4)
+//добавьте в созданный ранее набор, элементы 'a', 'b', 'c' с помощью add()
+
+a.add('a')  
+
+5)
+//выведите в консоли слово 'Element' для каждого элемента из массива с помощью forEach()
+let arr = [1, 2, 3, 4, 5];
+
+6)
+//выведите все значения из набора
+let fruits = new Set(['apple', 'banana', 'mango']);
+
+
+
+7)
+//выведите все ключи из набора
+let fruits = new Set(['apple', 'banana', 'mango']);
+
+let fruits = new Set(['apple', 'banana', 'mango']);
+const b = fruits.keys()
+
+console.log(b);
+8)
+//выведите все ключи из набора
+let fruits = new Set(['apple', 'banana', 'mango']);
+
+let fruits = new Set(['apple', 'banana', 'mango']);
+const b = fruits.keys()
+
+console.log(b);
+9)
+//создайте обьект с помощью new Map()
+
+const a = new Map([
+    ['apples',500]
+])
+console.log(a);
+
+10)
+//добавьте в созданный ранее обьект, с помощью set()
+let apple = 500;
+let banana = 300;
+let orange = 100;
+
+11)
+//выведите в консоли значение apple с помощью get() из обьекта ниже
+let fruits = new Map([['apple', 5], ['banana', 10], ['mango', 30]]);
+
+let fruits = new Map([['apple', 5], ['banana', 10], ['mango', 30]]);
+
+12)
+//выведите в консоли количество элементов в мапе ниже
+let fruits = new Map([['apple', 5], ['banana', 10], ['mango', 30]]);
+
+let fruits = new Map([['apple', 5], ['banana', 10], ['mango', 30]]);
+let a =  fruits.size
+console.log(a);
+
+13)
+//удалите элемент 'apple' из мапа ниже
+let fruits = new Map([['apple', 5], ['banana', 10], ['mango', 30]]);
+
+let fruits = new Map([['apple', 5], ['banana', 10], ['mango', 30]]);
+let a =  fruits.delete('apple')
+console.log(fruits);
+
+14)
+//очистите мап ниже
+let fruits = new Map([['apple', 5], ['banana', 10], ['mango', 30]]);
+
+let fruits = new Map([['apple', 5], ['banana', 10], ['mango', 30]]);
+let a =  fruits.clear()
+console.log(fruits);
+
+15)
+//проверьте находится ли 'apple' в мапе ниже
+let fruits = new Map([['apple', 5], ['banana', 10], ['mango', 30]]);
+
+let fruits = new Map([['apple', 5], ['banana', 10], ['mango', 30]]);
+let a =  fruits.has('apple')
+console.log(a);
+
+16)
+//выведите все значения из обьекта ниже
+let fruits = new Set(['apple', 'banana', 'mango']);
+
+17)
+//выведите все ключи из обьекта ниже
+let fruits = new Set(['apple', 'banana', 'mango']);
+
+const b = fruits.keys()
+
+18)
+//выведите все ключи/значения из обьекта ниже
+let fruits = new Set(['apple', 'banana', 'mango']);

@@ -1,0 +1,33 @@
+3
+function bow(a, b, c, d, e, f) {
+    a = String(a)
+    b = Number(b)
+    c = String(c)
+    d = Number(d)
+    e = String(e)
+    f = Number(f)
+    return (a + ',' + b + ',' + c + ',' + d + ',' + e + ',' + f).split()
+}
+
+console.log(bow('a', 4, 'c', 6, 'e', 5));
+
+5
+function bow(a) {
+
+    if (a == 0) return false
+    else return (a.length)
+}
+console.log(bow('0'));
+console.log(bow('456'));
+
+
+
+3
+function bow(a,b){
+    let i = 1
+
+if  (i == a*b) stop
+else return
+return (a*i++) 
+}
+console.log(bow(5));
