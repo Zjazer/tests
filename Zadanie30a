@@ -1,0 +1,46 @@
+2
+function bow(a, b) {
+    return (['a,b' + '[a,b]'])
+}
+console.log(bow());
+
+
+3
+function bow(a, b, c) {
+    if (a || b || c == 'flick')
+        return false
+    else return true
+}
+console.log(bow('g', 'flick', 'h'));
+
+4
+function bow(a){
+    a = a + ''
+    return a.split('').reverse().join('')
+}
+console.log(Number(bow(34)));
+
+2 вариант
+
+const a = '345'
+let b = a.split('').reverse().join('')
+
+console.log(Number(b));
+
+5
+
+let alex ={
+    name:'alex',
+    budget:3000
+}
+
+let alex2 ={
+    name:'alex',
+    budget:5000
+}
+let alex1 ={
+  name:'alex',
+    budget:6000
+}
+console.log(alex.budget+alex1.budget+alex2.budget)
+
