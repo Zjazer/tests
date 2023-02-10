@@ -1,0 +1,59 @@
+1.
+
+function bow(arr){
+    arr =arr.filter((item,index)=>{
+        return arr.indexOf(item)== index
+    })
+    console.log(arr);
+}
+
+bow([1,3,4,5,5,3,3,8])
+
+2
+
+function bow(a){
+    a = String(a)
+    let arr = a.split('')
+    let  sum = 0
+    for(let x of arr){
+        sum +=Number(x)
+    }
+    console.log(sum/arr.length);
+}
+
+bow(545)
+
+5
+function bow(hour,min,sec){
+   if(min/60>hour||sec/3600>hour||sec/60>min)
+   return Math.max(min,sec)
+
+   else return hour
+}
+
+console.log(bow(1,80,6));
+console.log(bow(1,8,4000));
+console.log(bow(5,80,6));
+
+3
+
+function bow(arr){
+    for(let x of arr){
+        if(x.includes('*')){
+            if(x[0]=='#' &&x[x.length-1] == '#'){
+                console.log(true);
+            }
+            else{
+                console.log(false);
+            }
+        }
+    }
+}
+
+bow(
+    [
+        '#####';
+        '# * #';
+        '#####';
+    ]
+)
