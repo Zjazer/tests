@@ -1,0 +1,31 @@
+4
+let salaries = {
+    John: 100,
+    Ann: 160,
+    Pete: 130
+};
+
+let sum = 0;
+for (let key in salaries) {
+    sum += salaries[key];
+}
+
+
+console.log(sum);
+
+3
+
+
+function bow(number, a) {
+    number = '12'
+    a = number
+    number = (number.toString().split('').reverse().join('')) * Math.sign(number)
+    return number + a
+
+}
+console.log(bow())
+
+1
+let chars = [1,2,3,4,1,2,3,7];
+let uniqueChars = [...new Set(chars)];
+console.log(uniqueChars);
