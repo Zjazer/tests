@@ -1,0 +1,121 @@
+Тест.js
+1)
+//обьясни своими словами, что значит callback функция
+
+функция запускающаюся после завершения другой функции
+
+2)
+//выведи в консоли 'Привет я Alex и мне 19 лет' с помощью функций ниже и callback
+function alertInfo(name, age) {
+    console.log(//сообщение);
+}
+
+function userInfo() {
+    let name = 'Alex';
+    let age = 19;
+    //код
+}
+
+userInfo();
+
+3)
+//какая из функций является функцией обратного вызова?
+setTimeout(showMessage, timeout);
+
+function showMessage() {
+    console.log('Сообшение');
+    startProgram();
+}
+
+function startProgram() {
+    console.log('Запуск');
+}
+
+вторая
+
+4)
+//передайте функции ниже функцию showMessage  в качестве параметра и вызовите ее
+function startProgram() {
+    console.log('Запуск');
+}
+
+5)
+//что такое Promise?
+промис это функция имеющая 2 исхода,в случае успеха и в случае ошибки
+6)
+//создайте Promise функцию?
+
+new Promise((resolveOuter) => {
+  resolveOuter(
+    new Promise((resolveInner) => {
+      setTimeout(resolveInner, 1000);
+    }),
+  );
+});
+
+7)
+//обьясни своими словами, что такое res и rej?
+let count = new Promise(function(res, rej) {
+    let a = 4;
+    if (a > 3) {
+        res('Число подходит');
+    } else {
+        rej('Число неподходит');
+    }
+
+    count.then (
+        function(value) {console.log(value);},
+        function(error) {console.log(error);}
+    );
+});
+
+рес это в случае того если все произойдет как было задумано а редж это в случае того если произойдет ошибка
+
+8)
+//обьясни своими словами, что такое .then?
+let count = new Promise(function(res, rej) {
+    let a = 4;
+    if (a > 3) {
+        res('Число подходит');
+    } else {
+        rej('Число неподходит');
+    }
+
+    count.then (
+        function(value) {console.log(value);},
+        function(error) {console.log(error);}
+    );
+});
+
+это если произойдет успех или ошибка
+
+9)
+//обьясни своими словами, что такое .then?
+let count = new Promise(function(res, rej) {
+    let a = 4;
+    if (a > 3) {
+        res('Число подходит');
+    } else {
+        rej('Число неподходит');
+    }
+
+    count.then (
+        function(value) {console.log(value);},
+        function(error) {console.log(error);}
+    );
+});
+
+это если произойдет успех или ошибка
+
+10)
+//что значит асинхронный?
+они происходят не одновременно а в разное время
+11)
+//что делает async?
+
+заставляет возвращать обещание
+
+12)
+//что делает await?
+
+заставляет ждать обещание
