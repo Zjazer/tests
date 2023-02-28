@@ -1,0 +1,80 @@
+1
+function sum(o){
+let sum = 0
+for(let key in o){
+    sum += o[key]
+}
+return sum>50? true: false
+}
+
+console.log(bow({m:20,n:30,l:40}));
+
+
+
+2
+function nc(o, n) {
+    let arr = Object.values(o)
+    arr.push(n)
+    arr.sort((a, b) => a - b)
+    let i = arr.indexOf(n)
+    if (arr[i + 1] - arr[i] === arr[i] - arr[i - 1]) return arr[i + 1]
+    else{
+        return arr[i+1]-arr[i]<arr[i] - arr[i-1]? arr[i+1] :arr[i+1]
+    }
+}
+
+console.log(nc({ ch1: 5, ch2: 20, ch3: 30 }, 10));
+
+
+3
+function gs(arr){
+    let group = []
+    for(let teacher of arr){
+        for(let student of teacher.data){
+            let obj = {
+                teacher: teacher.teacher,
+                ...student
+            }
+         group.push(obj)
+         console.log(obj);
+        }
+    }
+}
+
+console.log(
+    gs([{
+        teacher: 'Mr. Black',
+        data: [{
+            name: 'james',
+            tel: '077-777-77-77'
+        }, {
+            name: 'Jamal',
+            allergies: 'chocolate'
+        }]
+    },
+    
+    {
+        teacher: 'Mr. lamb',
+        data: [{
+            name: 'joe',
+            age: '7'
+        }
+    
+        ]
+    }
+    
+    ])
+    );
+
+
+    4
+    var sum = 0,
+    arr = ['1df','3re' ],
+    i = arr.length;
+
+while( i-- ) {
+ 
+    sum += parseInt( arr[i], 10 ) || 0; 
+}
+
+console.log( sum )
