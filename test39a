@@ -1,0 +1,483 @@
+1)
+//что выведет в консоли функция call
+const person = {
+    name: 'Alex',
+    age: 24,
+    call: function() {
+        console.log(`${this.name} = ${this.age}`);
+    }
+}
+
+
+Alex = 24
+undefined
+
+
+2)
+//получите доступ к методу call и запустите его
+const person = {
+    name: 'Alex',
+    age: 24,
+    call: function() {
+        console.log(`${this.name} = ${this.age}`);
+    }
+}
+
+
+console.log(person.call());
+
+3)
+//выведите в консоли все ключи из обьекта с помощью for
+const person = {
+    name: 'Alex',
+    age: 24,
+    city: 'Baku',
+    call: function() {
+        console.log(`${this.name} = ${this.age}`);
+    }
+}
+
+
+4)
+//выведите в консоли все значения из обьекта с помощью for
+const person = {
+    name: 'Alex',
+    age: 24,
+    city: 'Baku',
+    call: function() {
+        console.log(`${this.name} = ${this.age}`);
+    }
+}
+
+5)
+//преобразуйте обьект ниже в массив
+const person = {
+    name: 'Alex',
+    age: 24,
+    city: 'Baku',
+    call: function() {
+        console.log(`${this.name} = ${this.age}`);
+    }
+}
+
+6)
+//преобразуйте обьект ниже в строку
+const person = {
+    name: 'Alex',
+    age: 24,
+    city: 'Baku',
+    call: function() {
+        console.log(`${this.name} = ${this.age}`);
+    }
+}
+
+7)
+//преобразуйте обьект ниже в конструктор функции
+let obj = {
+    name: 'Alex',
+    age: 24,
+    isMarried: false,
+    hasCar: false,
+    hasJob: true,
+    job: 'Programmer',
+    childs: ['Hanz', 'Marry'],
+    awards: {
+        itMaster: 'Legend rang',
+        driver: 'Fast man'
+    }
+}
+
+8)
+//перечисли встроенные конструкторы javascript
+
+9)
+//создайте новый обьект используя конструктор ниже
+function Person(name, age, job) {
+    this.name = name;
+    this.age = age;
+    this.job = job;
+}
+
+
+
+
+             Test2
+
+
+Тест №2.js
+1) 
+//создайте пустой обьект 3мя способами
+
+2)
+//создайте обьект с вашими персональными данными 
+//пример: 
+let obj = {
+    name: 'Riyad',
+    age: 14
+}
+
+3)
+//чем является name в обьекте ниже?
+let obj = {
+    name: 'Alex',
+    age: 24
+}
+
+alex
+
+4)
+//чем является 'Alex' в обьекте ниже?
+let obj = {
+    name: 'Alex',
+    age: 24
+}
+
+name
+
+5)
+//создайте пустой обьект и добавте в него данные о человеке из ткста ниже в виде ключ/значения
+/*
+Здравствуйте меня зовут Самуил. Я родился 4 мая 1998го года. Мне 24 года.
+Я вышел победителем в конкурсе Мистер Будующее.
+У меня 2 награды по высшей математике.
+Я люблю много читать и много программировать.
+*/
+
+
+let obj = {
+    name: 'Samuel',
+    age: 24
+    birthday:04.05.98
+    hobbies:'coding', 'reading'
+    awards:'Mr.future','high math'
+}
+
+6)
+//выведите в консоли значение name из обьекта
+let obj = {
+    name: 'Alex',
+    age: 24,
+    isMarried: false,
+    hasCar: false,
+    hasJob: true,
+    job: 'Programmer',
+    childs: ['Hanz', 'Marry'],
+    awards: {
+        itMaster: 'Legend rang',
+        driver: 'Fast man'
+    }
+}
+
+console.log(obj.name)
+
+
+7)
+//выведите в консоли значение age из обьекта
+let obj = {
+    name: 'Alex',
+    age: 24,
+    isMarried: false,
+    hasCar: false,
+    hasJob: true,
+    job: 'Programmer',
+    childs: ['Hanz', 'Marry'],
+    awards: {
+        itMaster: 'Legend rang',
+        driver: 'Fast man'
+    }
+}
+
+console.log(obj.age)
+
+
+8)
+//выведите в консоли значение isMarried из обьекта
+let obj = {
+    name: 'Alex',
+    age: 24,
+    isMarried: false,
+    hasCar: false,
+    hasJob: true,
+    job: 'Programmer',
+    childs: ['Hanz', 'Marry'],
+    awards: {
+        itMaster: 'Legend rang',
+        driver: 'Fast man'
+    }
+}
+
+
+console.log(obj.isMarried);
+
+9)
+//выведите в консоли имя первого ребенка из обьекта
+let obj = {
+    name: 'Alex',
+    age: 24,
+    isMarried: false,
+    hasCar: false,
+    hasJob: true,
+    job: 'Programmer',
+    children: ['Hanz', 'Marry'],
+    awards: {
+        itMaster: 'Legend rang',
+        driver: 'Fast man'
+    }
+}
+
+console.log(obj.childs[0]);
+
+
+10)
+//выведите в консоли имена всех детей с помощью for из обьекта
+let obj = {
+    name: 'Alex',
+    age: 24,
+    isMarried: false,
+    hasCar: false,
+    hasJob: true,
+    job: 'Programmer',
+    childs: ['Hanz', 'Marry'],
+    awards: {
+        itMaster: 'Legend rang',
+        driver: 'Fast man'
+    }
+}
+
+11)
+//выведите в консоли значение itMaster из обьекта
+let obj = {
+    name: 'Alex',
+    age: 24,
+    isMarried: false,
+    hasCar: false,
+    hasJob: true,
+    job: 'Programmer',
+    childs: ['Hanz', 'Marry'],
+    awards: {
+        itMaster: 'Legend rang',
+        driver: 'Fast man'
+    }
+}
+
+console.log(obj.awards[0]);
+
+12)
+//выведите в консоли все свойства с помощью for...in из обьекта
+let obj = {
+    name: 'Alex',
+    age: 24,
+    isMarried: false,
+    hasCar: false,
+    hasJob: true,
+    job: 'Programmer',
+    childs: ['Hanz', 'Marry'],
+    awards: {
+        itMaster: 'Legend rang',
+        driver: 'Fast man'
+    }
+}
+
+13)
+//выведите в консоли значение всех свойств с помощью for...in из обьекта
+let obj = {
+    name: 'Alex',
+    age: 24,
+    isMarried: false,
+    hasCar: false,
+    hasJob: true,
+    job: 'Programmer',
+    childs: ['Hanz', 'Marry'],
+    awards: {
+        itMaster: 'Legend rang',
+        driver: 'Fast man'
+    }
+}
+
+
+14)
+//поменяйте имя дочери на 'Linda' в обьекте ниже
+let obj = {
+    name: 'Alex',
+    age: 24,
+    isMarried: false,
+    hasCar: false,
+    hasJob: true,
+    job: 'Programmer',
+    childs: ['Hanz', 'Marry'],
+    awards: {
+        itMaster: 'Legend rang',
+        driver: 'Fast man'
+    }
+}
+
+obj.childs[0] = 'linda'
+console.log(obj.childs[0]);
+
+15)
+//поменяйте значение 'job' на 'menedjer' в обьекте ниже
+let obj = {
+    name: 'Alex',
+    age: 24,
+    isMarried: false,
+    hasCar: false,
+    hasJob: true,
+    job: 'Programmer',
+    childs: ['Hanz', 'Marry'],
+    awards: {
+        itMaster: 'Legend rang',
+        driver: 'Fast man'
+    }
+}
+
+obj.job = 'manager'
+console.log(obj.childs[0]);
+
+16)
+//выведите в консоли значение itMaster из обьекта c помощью квадратных скобок
+let obj = {
+    name: 'Alex',
+    age: 24,
+    isMarried: false,
+    hasCar: false,
+    hasJob: true,
+    job: 'Programmer',
+    childs: ['Hanz', 'Marry'],
+    awards: {
+        itMaster: 'Legend rang',
+        driver: 'Fast man'
+    }
+}
+
+
+console.log(obj.awards[0]);
+
+17)
+//выведите в консоли значение name из обьекта c помощью квадратных скобок
+let obj = {
+    name: 'Alex',
+    age: 24,
+    isMarried: false,
+    hasCar: false,
+    hasJob: true,
+    job: 'Programmer',
+    childs: ['Hanz', 'Marry'],
+    awards: {
+        itMaster: 'Legend rang',
+        driver: 'Fast man'
+    }
+}
+
+console.log(obj['name']);
+
+
+18)
+//удалите job из обьекта и поменяйте значение hasJob на 'false'
+let obj = {
+    name: 'Alex',
+    age: 24,
+    isMarried: false,
+    hasCar: false,
+    hasJob: true,
+    job: 'Programmer',
+    childs: ['Hanz', 'Marry'],
+    awards: {
+        itMaster: 'Legend rang',
+        driver: 'Fast man'
+    }
+}
+
+
+let x = delete(obj.job)
+obj.hasJob = false
+console.log(obj);
+
+19)
+//удалите name из обьекта
+let obj = {
+    name: 'Alex',
+    age: 24,
+    isMarried: false,
+    hasCar: false,
+    hasJob: true,
+    job: 'Programmer',
+    childs: ['Hanz', 'Marry'],
+    awards: {
+        itMaster: 'Legend rang',
+        driver: 'Fast man'
+    }
+}
+
+
+let x = delete(obj.name)
+console.log(obj);
+
+20)
+//удалите job из обьекта c помощью квадратных скобок и поменяйте значение hasJob на 'false'
+let obj = {
+    name: 'Alex',
+    age: 24,
+    isMarried: false,
+    hasCar: false,
+    hasJob: true,
+    job: 'Programmer',
+    childs: ['Hanz', 'Marry'],
+    awards: {
+        itMaster: 'Legend rang',
+        driver: 'Fast man'
+    }
+}
+
+let x = delete obj["job"]
+obj.hasJob = false
+console.log(obj);
+
+test3
+
+
+Тест №3.js
+1)
+//что такое JSON?
+
+простой формат обмена данными
+
+2)
+//зачем использовать JSON?  
+
+это как объекты но не зависит от языка
+
+3)
+//преобразуйте строку ниже в обьект JSON и выведите в консоли
+let str = '{name: "Alex", age: 24}';
+
+
+console.log(JSON.parse({name: "Alex", age: 24}));
+
+4)
+//преобразуйте обьект ниже в строку и выведите в консоли
+
+
+console.log(JSON.stringify({name: "Alex", age: 24}));
+let obj = {name: "Alex", age: 24};
+
+5)
+//создайте в отдельности 2 переменные и присвойте одному обьект JSON другому обьект Javascript
+
+const arr = ['joe','mer']
+const arr2 = ['joe1','mer2']
+const r = JSON.stringify(arr)
+const v = JSON.parse(arr2)
+console.log(r);
+console.log(v);
+6)
+//какие типы данных может содержать JSON обьект?
+строка число объект массив логические null
+7)
+//какие типы данных не может содержать обьект?
+функции даты и undefined
+8)
+//в каком виде мы получаем JSON с сервера?
+В виде объекта   
+9)
+//в каком виде мы отправляем JSON на сервер?
+в виде строки
