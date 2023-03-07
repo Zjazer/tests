@@ -23,7 +23,7 @@ const newUser = (name, age)=>{
 
 3)
 //сделай скрипт ниже короче
-let call = (a, b) => {return a + b};
+let call = (a, b) =>  a + b;
 
 
                                                 3
