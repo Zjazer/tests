@@ -1,11 +1,11 @@
                 Тест №1.js
 1)
 //выведите в консоли значение name через точку
-let str = '{name: "Alex", age: 24}';
+let str = '{"name": "Alex", "age": 24}';
 console.log(JSON.parse(str).name)
 2)
 //выведите в консоли значение name через квадратные скопки
-let str = '{name: "Alex", age: 24}';
+let str = '{"name": "Alex", "age": 24}';
 console.log(JSON.parse(str)['name'])
 3)
 //как называется обьект находячщийся в JSON?
