@@ -1,0 +1,344 @@
+1)
+//для чего нужен AJAX?
+
+считывает данные сайта после загрузки
+обновление страницы без перезагрузки сайта
+отправка данных на веб сервер в фоновом режиме
+2)
+//для чего нужен веб API?
+упрощает работу
+3)
+//создайте обработчик события для кнопки ниже, которая будет перекидывать на предыдущую страницу в браузере при нажатии
+<button id='back'>Open</button>
+
+
+    <button id='back' open = "myfun()">Go back 1 page</button>
+
+    <script>
+        function myfun(){
+            window.history.go(-1)
+        }
+    </script>
+
+4)
+//создайте обработчик события для кнопки ниже, которая будет перекидывать на следующую страницу в браузере при нажатии
+<button id='next'>Open</button>
+
+  <button id='next' open = "myfun()">Go 1 page</button>
+
+    <script>
+        function myfun(){
+            window.history.forward()
+        }
+    </script>
+5)
+//создайте обработчик события для кнопки ниже, которая будет перекидывать на 3 страницы вперед в браузере при нажатии
+<button id='next'>Open</button>
+
+   <button id='next' open = "myfun()">Go 3 page</button>
+
+    <script>
+        function myfun(){
+            window.history.go(3)
+        }
+    </script>
+
+6)
+//создайте обработчик события для кнопки ниже, которая будет перекидывать на 3 страницы назад в браузере при нажатии
+<button id='next'>Open</button>
+
+    <button id='back' open = "myfun()">Go back 3 page</button>
+
+    <script>
+        function myfun(){
+            window.history.go(-3)
+        }
+    </script>
+
+7)
+//выведите в консоли локальное хранилище
+let r = localStorage
+console.log(r)
+
+
+8)
+//добавьте обьект ниже в локальное хранилище под ключем 'user'
+let newUser = {name: 'Alex', age: 24};
+
+9)
+//получите из локального хранилища ранее добавленные данные и выведите в консоли
+
+10)
+//для чего нужен localStorage?
+позволяют хранить пары ключей и значений    
+11)
+//для чего нужен sessionStorage?
+хранит данные во время сессии
+12)
+//добавьте обьект ниже в sessionStorage под ключем 'user'
+let newUser = {name: 'Alex', age: 24};
+
+13)
+//получите из sessionStorage ранее добавленные данные и выведите в консоли
+
+14)
+//выведите в консоли все ключи из локального хранилища
+
+15)
+//выведите в консоли длину локального хранилища
+let f = localStorage.length
+console.log(f)
+16)
+//удалите ранее добавленный ключ 'user' из локального хранилища
+localStorage.removeItem('user')
+17)
+//очистите локальное хранилище
+
+
+localStorage.clear()
+
+                               
+                            2
+
+
+1)
+//выведите в консоли каждый элемент из массива [45, 12, 3, 2, 1, 35] с помощью forEach()
+const a =  [45, 12, 3, 2, 1, 35]
+a.forEach(element => console.log(element))
+2)
+//создайте новый массив с помощью map() из массива [45, 46, 47] в котором все значения будут удвоены и выведите в консоли
+
+3)
+//создайте новый массив только из чисел больше 5ти из массива [45, 12, 3, 2, 1, 35] с помощью filter()
+const a = [45, 12, 3, 2, 1, 35]
+const r = a.filter(a => a > 5)
+console.log(r);
+4)
+//сложите все числа из массива [45, 12, 3, 2, 1, 35] с помощью reduce() и выведите результат в консоли
+let a = [45, 12, 3, 2, 1, 35];
+let r = a.reduce(function(a,b){
+    return a+b
+})
+console.log(r);
+5)
+//сложите все числа из массива [45, 12, 3, 2, 1, 35] с помощью reduce() и начального значения 50, выведите результат в консоли
+
+6)
+//создайте массив только из чисел больше 5ти используя every() из массива [45, 12, 3, 2, 1, 35]
+
+7)
+//создайте массив только из чисел больше 5ти используя some() из массива [45, 12, 3, 2, 1, 35]
+
+8)
+//используйте метод indexOf чтобы найти индекс 'apple' в массиве ниже
+
+let a = ['apple','banana','pineapple']
+let b = a.indexOf('apple')
+console.log(b);
+
+9)
+//используйте метод lastIndexOf чтобы найти индекс последнего 'apple' в массиве ниже
+
+let a = ['apple','banana','pineapple']
+let b = a.lastIndexOf('apple')
+console.log(b);
+
+10)
+//проверьте находится ли 'apple' в массиве ниже
+
+const a = ['apple','banana','pineapple']
+console.log(a.includes('apple'));
+11)
+//выведите в консоли первое число которое больше 5ти из массива [1, 3, 4, 9, 0, 20]
+const a =[1, 3, 4, 9, 0, 20]
+const r = a.filter(a => a > 5)
+console.log(r);
+12)
+//выведите в консоли индекс первого числа который больше 5ти из массива [1, 3, 4, 9, 0, 20]
+const a =[1, 3, 4, 9, 0, 20]
+const r = a.indexOf( a.filter(a => a > 5))
+console.log(r);
+
+13)
+//превратите строку 'Hello' в массив с помощью from()
+
+console.log(Array.from('Hello'));
+
+14)
+//выведите в консоли все ключи из массива
+
+
+
+
+                                        3
+
+Тест №1.js
+1)
+//что выведет в консоли console.log(Boolean(10 > 9))
+
+true
+2)
+//что выведет в консоли console.log(Boolean(10 < 9))
+
+false
+
+3)
+//что выведет в консоли скрипт ниже
+if (1 == 2) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+false
+
+4)
+//что выведет в консоли скрипт ниже
+if (1 < 2) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+true
+
+5)
+//что выведет в консоли скрипт ниже
+if (1 > 2) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+fslse
+
+6)
+//что выведет в консоли скрипт ниже
+let x = 0;
+console.log(Boolean(x));
+
+false
+
+7)
+//что выведет в консоли скрипт ниже
+let x = -0;
+console.log(Boolean(x));
+
+false
+
+8)
+//что выведет в консоли скрипт ниже
+let x = "";
+console.log(Boolean(x));
+
+false
+
+9)
+//что выведет в консоли скрипт ниже
+let x;
+console.log(Boolean(x));
+
+false
+
+10)
+//что выведет в консоли скрипт ниже
+let x = null;
+console.log(Boolean(x));
+
+false
+
+11)
+//что выведет в консоли скрипт ниже
+let x = false;
+console.log(Boolean(x));
+
+false
+
+12)
+//что выведет в консоли скрипт ниже
+let x = 10/"H";
+console.log(Boolean(x));
+
+false
+
+13)
+//перечислите логические операторы
+||,&&,!,
+14)
+//что выведет в консоли скрипт ниже
+if (1 > 2 && 2 < 3 || "hello".length < 4) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+false
+
+15)
+//что выведет в консоли скрипт ниже
+if (1 > 2 && 2 < 3 || "hello".length < 4) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+false
+
+16)
+//что выведет в консоли скрипт ниже
+if (1 > 2 || 2 < 3 || "hello".length != 4) {
+    console.log(true);
+} else {
+    console.log(false);
+}
+
+true
+
+17)
+//создайте структуру ниже с помощью if, else, else if
+let money = 10;
+/*
+ если money больше или равно 5-ти, то вывести в консоли 'Я куплю пирог',
+ иначе если money меньше 5-ти и больше 1, то вывести в консоли 'Мало денег',
+ иначе вывести в консоли 'Денег нет'
+*/
+
+function b(money) {
+    if (money > 5)
+        console.log("i will buy a pie");
+    if (money < 5 && money > 1)
+        console.log("a few money");
+        else
+        console.log("no money");
+
+}
+console.log(b(0));
+console.log(b(20));
+console.log(b(2));
+
+18)
+//превратите скрипт ниже в switch
+let day = new Date().getDay();
+
+if (day == 1) {
+    console.log('Monday');
+} else if (day == 2) {
+    console.log('Tuesday');
+} else if (day == 3) {
+    console.log('Wednesday');
+} else if (day == 4) {
+    console.log('Thursday');
+} else if (day == 5) {
+    console.log('Friday');
+} else {
+    console.log('Break Time!');
+}
+
+
+
+
+let num = '654765fdfds';
+
+if (/\s/g.test(num) || /[a-zA-Z]/g.test(num)) {
+    console.log(false)
+}
