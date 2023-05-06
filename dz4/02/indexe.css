@@ -1,0 +1,19 @@
+.cont{
+  
+    width: 95%;
+    margin: 0 auto ;
+    
+}
+
+h4{
+    margin-top: 45px;
+}
+
+.sb{
+    margin-top: 30px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
